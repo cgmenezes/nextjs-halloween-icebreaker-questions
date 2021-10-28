@@ -25,11 +25,6 @@ export default function Home({ allQuestions }) {
         </Link>
         <ul className={utilStyles.list}>
           {question}
-          {/* {allQuestions.map(( question ) => (
-            <li className={utilStyles.listItem} key={question}>
-              {question}
-            </li>
-          ))} */}
         </ul>
       </section>
     </Layout>
